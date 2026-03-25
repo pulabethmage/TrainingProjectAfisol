@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|e:\\projects\\windows form apps\\afi_erp_sys\\afierpsystem\\veiws\\additemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|solutionrelative:veiws\\additemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|e:\\projects\\windows form apps\\afi_erp_sys\\afierpsystem\\veiws\\additemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|solutionrelative:veiws\\additemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|e:\\projects\\windows form apps\\afi_erp_sys\\afierpsystem\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|solutionrelative:controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|e:\\projects\\windows form apps\\afi_erp_sys\\afierpsystem\\veiws\\formbusinesspartners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|solutionrelative:veiws\\formbusinesspartners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|e:\\projects\\windows form apps\\afi_erp_sys\\afierpsystem\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|solutionrelative:repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|e:\\projects\\windows form apps\\afi_erp_sys\\afierpsystem\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|e:\\projects\\windows form apps\\afi_erp_sys\\afierpsystem\\veiws\\formbusinesspartners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|solutionrelative:veiws\\formbusinesspartners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|e:\\projects\\windows form apps\\afi_erp_sys\\afierpsystem\\controllers\\businesspartnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C89AE3E-7CB7-4813-B041-5657042BEBC2}|AfiErpSystem.csproj|solutionrelative:controllers\\businesspartnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Repositories\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ItemRepository.cs",
+              "ToolTip": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Repositories\\ItemRepository.cs",
+              "RelativeToolTip": "Repositories\\ItemRepository.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T17:59:59.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddItemForm.cs [Design]",
+              "DocumentMoniker": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Veiws\\AddItemForm.cs",
+              "RelativeDocumentMoniker": "Veiws\\AddItemForm.cs",
+              "ToolTip": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Veiws\\AddItemForm.cs [Design]*",
+              "RelativeToolTip": "Veiws\\AddItemForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T17:56:49.836Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormBusinessPartners.cs",
+              "DocumentMoniker": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Veiws\\FormBusinessPartners.cs",
+              "RelativeDocumentMoniker": "Veiws\\FormBusinessPartners.cs",
+              "ToolTip": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Veiws\\FormBusinessPartners.cs",
+              "RelativeToolTip": "Veiws\\FormBusinessPartners.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAiwDMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T17:54:34.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemController.cs",
+              "ToolTip": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "Controllers\\ItemController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wBkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:00:08.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddItemForm.cs",
+              "DocumentMoniker": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Veiws\\AddItemForm.cs",
+              "RelativeDocumentMoniker": "Veiws\\AddItemForm.cs",
+              "ToolTip": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Veiws\\AddItemForm.cs*",
+              "RelativeToolTip": "Veiws\\AddItemForm.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T17:57:23.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Item.cs",
+              "DocumentMoniker": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Item.cs",
+              "ToolTip": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Models\\Item.cs",
+              "RelativeToolTip": "Models\\Item.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAA2wB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:29:22.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormBusinessPartners.cs [Design]",
+              "DocumentMoniker": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Veiws\\FormBusinessPartners.cs",
+              "RelativeDocumentMoniker": "Veiws\\FormBusinessPartners.cs",
+              "ToolTip": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Veiws\\FormBusinessPartners.cs [Design]",
+              "RelativeToolTip": "Veiws\\FormBusinessPartners.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T07:18:57.863Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BusinessPartnerController.cs",
+              "DocumentMoniker": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Controllers\\BusinessPartnerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BusinessPartnerController.cs",
+              "ToolTip": "E:\\PROJECTS\\WINDOWS FORM APPS\\AFI_ERP_SYS\\AfiErpSystem\\Controllers\\BusinessPartnerController.cs",
+              "RelativeToolTip": "Controllers\\BusinessPartnerController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwDUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T17:52:11.261Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
