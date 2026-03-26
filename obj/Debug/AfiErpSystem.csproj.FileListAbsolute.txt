@@ -94,3 +94,8 @@ E:\PROJECTS\WINDOWS FORM APPS\AFI_ERP_SYS\AfiErpSystem\bin\Debug\tr\Microsoft.Da
 E:\PROJECTS\WINDOWS FORM APPS\AFI_ERP_SYS\AfiErpSystem\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 E:\PROJECTS\WINDOWS FORM APPS\AFI_ERP_SYS\AfiErpSystem\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 E:\PROJECTS\WINDOWS FORM APPS\AFI_ERP_SYS\AfiErpSystem\obj\Debug\AfiErpSystem.csproj.SuggestedBindingRedirects.cache
+E:\PROJECTS\WINDOWS FORM APPS\AFI_ERP_SYS\AfiErpSystem\obj\Debug\AfiErpSystem.Veiws.FormLocations.resources
+E:\PROJECTS\WINDOWS FORM APPS\AFI_ERP_SYS\AfiErpSystem\obj\Debug\AfiErpSystem.Veiws.FormBillLocations.resources
+E:\PROJECTS\WINDOWS FORM APPS\AFI_ERP_SYS\AfiErpSystem\obj\Debug\AfiErpSystem.Veiws.FormPendingGRNs.resources
+E:\PROJECTS\WINDOWS FORM APPS\AFI_ERP_SYS\AfiErpSystem\obj\Debug\AfiErpSystem.Veiws.FormInventory.resources
+E:\PROJECTS\WINDOWS FORM APPS\AFI_ERP_SYS\AfiErpSystem\obj\Debug\AfiErpSystem.Veiws.FormPendingTransfers.resources

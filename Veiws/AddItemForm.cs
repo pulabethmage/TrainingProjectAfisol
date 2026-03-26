@@ -196,48 +196,34 @@ namespace AfiErpSystem.Veiws
                 ItemController controller = new ItemController();
                 dataGridView1.DataSource = controller.GetAll().ToList();
 
-                // Safe column header setting — won't crash if column missing
-                void SetHeader(string col, string header)
+                // ✅ Hide all columns first
+                foreach (DataGridViewColumn col in dataGridView1.Columns)
+                    col.Visible = false;
+
+                // ✅ Show and rename only the columns you want
+                void ShowColumn(string col, string header, int width = 0)
                 {
                     if (dataGridView1.Columns.Contains(col))
+                    {
+                        dataGridView1.Columns[col].Visible = true;
                         dataGridView1.Columns[col].HeaderText = header;
+                        if (width > 0)
+                            dataGridView1.Columns[col].Width = width;
+                    }
                 }
 
-                SetHeader("ItemId", "ID");
-                SetHeader("ItemCode", "Item Code");
-                SetHeader("ItemName", "Item Name");
-                SetHeader("ShortDescription", "Description");
-                SetHeader("Barcode", "Barcode");
-                SetHeader("ManufacturerPartNo", "MPN");
-                SetHeader("ItemType", "Type");
-                SetHeader("Category", "Category");
-                SetHeader("SubCategory", "Sub Category");
-                SetHeader("BaseUoM", "UoM");
-                SetHeader("IsBatchManaged", "Batch");
-                SetHeader("IsSerialManaged", "Serial");
-                SetHeader("CostPrice", "Cost Price");
-                SetHeader("SellingPrice", "Selling Price");
-                SetHeader("Currency", "Currency");
-                SetHeader("TaxCategory", "Tax");
-                SetHeader("PreferredSupplierId", "Supplier ID");
-                SetHeader("SupplierName", "Supplier");   // new
-                SetHeader("LeadTimeDays", "Lead Time");
-                SetHeader("MOQ", "MOQ");
-                SetHeader("VendorCatalogNumber", "Vendor Cat No");
-                SetHeader("SafetyStock", "Safety Stock");
-                SetHeader("ReorderPoint", "Reorder Point");
-                SetHeader("Weight", "Weight");
-                SetHeader("Dimensions", "Dimensions");
-                SetHeader("Color", "Color");
-                SetHeader("GLAccount", "GL Account");
-                SetHeader("CostingMethod", "Costing Method");
-                SetHeader("Status", "Status");
-                SetHeader("ActiveFrom", "Active From");
-                SetHeader("ActiveTo", "Active To");
-                SetHeader("CreatedDate", "Created Date");
-                SetHeader("CreatedBy", "Created By");
-                SetHeader("UpdatedDate", "Updated Date");
-                SetHeader("UpdatedBy", "Updated By");
+                ShowColumn("ItemId", "ID", 50);
+                ShowColumn("ItemCode", "Item Code", 100);
+                ShowColumn("ItemName", "Item Name", 150);
+                ShowColumn("Category", "Category", 100);
+                ShowColumn("IsBatchManaged", "Batch", 60);
+                ShowColumn("IsSerialManaged", "Serial", 60);
+                ShowColumn("CostPrice", "Cost Price", 100);
+                ShowColumn("SellingPrice", "Selling Price", 100);
+                ShowColumn("Currency", "Currency", 80);
+                ShowColumn("SupplierName", "Supplier", 120);
+                ShowColumn("Status", "Status", 80);
+                ShowColumn("CreatedBy", "Created By", 100);
 
                 // Appearance
                 dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;

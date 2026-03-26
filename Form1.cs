@@ -19,6 +19,9 @@ namespace AfiErpSystem
         FormGrn grnForm;
         FormInventoryTransfer inventoryTransferForm;
         FormDispatch dispatchForm;
+        FormLocations locationsForm;
+        FormBillLocations billLocationsForm;
+        FormInventory invetoryForm;
 
 
         public Dashboard()
@@ -192,6 +195,69 @@ namespace AfiErpSystem
         private void DispatchForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             dispatchForm = null;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if(locationsForm == null)
+            {
+                locationsForm = new FormLocations();
+                locationsForm.FormClosed += LocationsForm_FormClosed;
+                locationsForm.MdiParent = this;
+                locationsForm.Dock = DockStyle.Fill;
+                locationsForm.Show();
+            }
+            else
+            {
+                locationsForm.Activate();
+            }
+        }
+
+        private void LocationsForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            locationsForm = null;
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if(billLocationsForm == null)
+            {
+                billLocationsForm = new FormBillLocations();
+                billLocationsForm.FormClosed += BillLocationsForm_FormClosed;
+                billLocationsForm.MdiParent = this;
+                billLocationsForm.Dock = DockStyle.Fill;
+                billLocationsForm.Show();
+            }
+            else
+            {
+                billLocationsForm.Activate();
+            }
+        }
+
+        private void BillLocationsForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+           billLocationsForm = null;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if(invetoryForm == null)
+            {
+                invetoryForm = new FormInventory();
+                invetoryForm.FormClosed += InvetoryForm_FormClosed;
+                invetoryForm.MdiParent = this;
+                invetoryForm.Dock = DockStyle.Fill;
+                invetoryForm.Show();
+            }
+            else
+            {
+                invetoryForm.Activate();
+            }
+        }
+
+        private void InvetoryForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            invetoryForm = null;
         }
     }
 }
